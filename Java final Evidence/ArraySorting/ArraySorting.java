@@ -15,7 +15,7 @@ public class ArraySorting {
         for (int [] d : data) {
           Arrays.sort(d);
             for (int a : d) {
-                System.out.print(a + " ");
+                System.out.println(a + " ");
             }
             System.out.println();
         }
